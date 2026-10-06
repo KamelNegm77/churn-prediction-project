@@ -25,6 +25,7 @@ proactively intervene, using the IBM Telco Customer Churn dataset (7,043 custome
    XGBoost at baseline (untuned) to validate XGBoost as the right choice for this 
    problem before
 
+
 ## Deployment
 
 A FastAPI service (`app/`) wraps the trained model for real-time predictions, 
@@ -35,3 +36,4 @@ A Dockerfile is included for containerized deployment. Local Docker build was
 blocked by a virtualization/WSL2 configuration issue on the development machine; 
 the Dockerfile is written and ready to build on a compatible system or cloud 
 environment (e.g., GitHub Actions, Render, Railway).
+f8aca85a93267dd73219bca0d4ab3dc3e6ef6e6a
